@@ -21,8 +21,36 @@
         <li>Issue <span class="description">a way to report a new task or bug to fix. Tracked on project board.</span></li>
     </ul>
     <br>
+    
+    <h3>Creating new branch</h3>
+    <ol>
+        <li>git status <span class ="description">check which branch you're on</span></li>
+        <li>git checkout -b <span class="example">feature/starter-code</span><span class ="description"> create new branch</span></li>
+        <li>git status</li>
 
-    <h3>Git Commands:</h3>
+    </ol>
+    <h3>Merging branch</h3>
+    <ol>
+        <li>git status</li>
+        <li>git add -A</li>
+        <li>git commit -m</li>
+        <li>git pull origin main <span class ="description"> sync local branch with repo version</span></li>
+        <li>git push origin <span class="example">feature/starter-code</span><span class ="description"> push changes to github branch</span></li>
+        <li class="italic">Go to git hub and follow instructions</li>
+    </ol>
+    
+
+    <h4>What those git elements mean:</h4>
+     <p>git <span class="description">Precedes all git statements</span></p>
+     <p>checkout <span class="description">Moves working branch to new branch</span></p>
+     <p>-b <span class="description">Create new branch</span></p>
+     <p><span class="example">Feature/starter-code </span><span class="description">Name of new branch. Freature prefix shows change is adding new feature</span></p>
+     <p>add <span class="description"> add modifications in CWB to staging area</span></p>
+     <p>-A <span class="description">add all changes</span></p>
+      <p>-m <span class="description">associate message</span></p>
+     <p>pull <span class="description">reveive remote branch's modifications into local environment</span></p>
+     <p>origin <span class="description">source of info to pull</span></p>
+     <p>main <span class="description">the name of a branch in the repo</span></p>
     
 
 </body>
