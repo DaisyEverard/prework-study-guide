@@ -41,6 +41,15 @@ footer p {
     box-shadow: 5px 10px #888;
   }
 
+  .card a {
+    color: hsl(240, 100%, 50% );
+    text-decoration: none;
+  }
+
+  .card a:hover {
+    color: black;
+  }
+
   .description {
     color: hsl(240, 80%, 60% );
     font-style: italic;
