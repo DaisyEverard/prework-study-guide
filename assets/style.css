@@ -62,3 +62,8 @@ footer p {
   .italic {
     font-style: italic;
   }
+
+  #standard-head {
+    border-width: 1px; 
+    border-color: black;
+  }
