@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="assets/style.css"/>
 </head>
 <body>
-    <h1 class="card">Git</h1>
+    <header>
+        <h1 class="card">Git</h1>
+    </header>
 
     <h3>Jargon:</h3>
     <ul>
@@ -38,9 +40,8 @@
         <li>git push origin <span class="example">feature/starter-code</span><span class ="description"> push changes to github branch</span></li>
         <li class="italic">Go to git hub and follow instructions</li>
     </ol>
-    
 
-    <h4>What those git elements mean:</h4>
+    <h3>What do those elements mean?</h3>
      <p>git <span class="description">Precedes all git statements</span></p>
      <p>checkout <span class="description">Moves working branch to new branch</span></p>
      <p>-b <span class="description">Create new branch</span></p>
@@ -51,7 +52,37 @@
      <p>pull <span class="description">reveive remote branch's modifications into local environment</span></p>
      <p>origin <span class="description">source of info to pull</span></p>
      <p>main <span class="description">the name of a branch in the repo</span></p>
-    
+    <br>
+
+     <h3>Types of git branches:</h3>
+     <h4>There are 2 main types: Regular and Temporary</h4>
+    <p><span style="font-weight: bold;">Regular:</span> dev, master, QA </p>
+    <p>dev <span class="description">main development branch. 
+        content undergoes reviews and testing before being merged with master
+    </span></p>
+    <p>master <span class="description">branch available in Git repo.
+         should always be stable.
+    </span></p>
+    <p>QA <span class="description"> contains code for QA and automation testing.
+        ensures code base is stable before going to production envirionment. 
+    </span></p>
+    <p><span style="font-weight: bold;">Temporary: </span> bug fix, hot fix, feature, experimental, WIP</p>
+    <br>
+
+     <h3>Branch naming conventions:</h3>
+     <ul>
+        <li>Start with category words.  
+          Adapt for your setting. eg. WIP, bug, feature...
+        </li>
+        <li>Use issue tracker IDs</li>
+        <li>Be consistent with hyphens, slashes, and underscores</li>
+        <li>Be consistent with team conventions</li>
+        <li>Some companies add author names to branch</li>
+        <li>Don't use only numbers</li>
+        <li>Keep names short, only add relevant info. 
+          This is particularly important for permanent branches.
+        </li>
+     </ul>
 
 </body>
 <footer>

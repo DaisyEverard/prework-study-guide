@@ -24,7 +24,7 @@ img {
     margin-right: auto;
 }
 
-ul {
+ul, ol, p {
     padding-left: 40px;
     font-size: 20px;
 }
@@ -39,6 +39,9 @@ footer p {
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #888;
+    background-color: white;
+    color: black;
+    align: auto; 
   }
 
   .card a {
