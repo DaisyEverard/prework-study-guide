@@ -34,6 +34,7 @@ footer p {
   font-size: 30px;
 }
 
+
   .card {
     width: 80%;
     margin: 40px auto;
@@ -41,7 +42,7 @@ footer p {
     box-shadow: 5px 10px #888;
     background-color: white;
     color: black;
-    align: auto; 
+    display: inline-block;
   }
 
   .card a {
@@ -69,4 +70,16 @@ footer p {
   #standard-head {
     border-width: 1px; 
     border-color: black;
+  }
+
+  #top {
+    position: sticky;
+    top: 0;
+  }
+
+  #home {
+    display: inline-block;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
   }
