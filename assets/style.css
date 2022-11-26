@@ -17,7 +17,6 @@
       text-align: center;
   }
   
-  
   ul, 
   ol, 
   p {
@@ -49,23 +48,34 @@
       box-shadow: 5px 10px #888;
       background-color: white;
       color: black;
-      display: inline-block;
       width: 80%;
     }
 
     .nav-link {
-      
+      font-size: large; 
     }
 
     #home-link {
-      margin: 5px auto;
+      margin: 4px auto;
       font-weight: bold;
       font-size: x-large;
-      color: white; 
-      text-decoration: none;
       width: 20%;
     }
 
-    #nav-divider-home {
+    .nav-link,
+    #home-link {
+      color: white;
+      text-decoration: none;
+      display: inline; 
+      margin: 3px;
+    }
 
+    .nav-link:hover,
+    #home-link:hover {
+      color: black; 
+    }
+
+    #nav-bar {
+      margin: 2px auto;
+      width: fit-content; 
     }
