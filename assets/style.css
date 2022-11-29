@@ -79,3 +79,8 @@
       margin: 2px auto;
       width: fit-content; 
     }
+
+    #bibliography a{
+      font-style: italic; 
+      color: hsl(240, 80%, 60% ); 
+    }
