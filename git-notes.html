@@ -24,21 +24,42 @@
 
     <h3>Jargon:</h3>
     <ul>
-        <li>Git <span class="description">version control software. Allows users to make changes simultaneously</span></li>
-        <li>Repo (repository) <span class="description">name of project folder + revision history</span></li>
-        <li>Branch <span class="description">space for changes that doesn't affect live site</span></li>
-        <li>Markdown <span class="description">Plain text that converts to HTML easily. stored in .md files</span></li>
-        <li>Commit Changes <span class="description">adding, editing, or deleting files in repository</span></li>
-        <li>Pull Request <span class="description">request to merge changes from on branch with another. Add explanation comments and request reviewers</span></li>
-        <li>Merge <span class="description">publish/deploy changes to live site</span></li>
-        <li>Issue <span class="description">a way to report a new task or bug to fix. Tracked on project board.</span></li>
+        <li>Git <i class="description">
+          version control software. Allows users to make changes simultaneously
+        </i></li>
+        <li>Repo (repository) <i class="description">
+          name of project folder + revision history
+        </i></li>
+        <li>Branch <i class="description">
+          space for changes that doesn't affect live site
+        </i></li>
+        <li>Markdown <i class="description">
+          Plain text that converts to HTML easily. stored in .md files
+        </i></li>
+        <li>Commit Changes <i class="description">
+          adding, editing, or deleting files in repository
+        </i></li>
+        <li>Pull Request <i class="description">
+          request to merge changes from on branch with another.
+        Add explanation comments and request reviewers
+      </i></li>
+        <li>Merge <i class="description">
+          publish/deploy changes to live site
+        </i></li>
+        <li>Issue <i class="description">
+          a way to report a new task or bug to fix. Tracked on project board.
+        </i></li>
     </ul>
     <br>
     
     <h3>Creating new branch</h3>
     <ol>
-        <li>git status <span class ="description">check which branch you're on</span></li>
-        <li>git checkout -b <span class="example">feature/starter-code</span><span class ="description"> create new branch</span></li>
+        <li>git status <i class ="description">
+          check which branch you're on
+        </i></li>
+        <li>git checkout -b <span class="example">
+          feature/starter-code</span><i class ="description">create new branch
+            </i></li>
         <li>git status</li>
 
     </ol>
@@ -47,37 +68,38 @@
         <li>git status</li>
         <li>git add -A</li>
         <li>git commit -m</li>
-        <li>git pull origin main <span class ="description"> sync local branch with repo version</span></li>
-        <li>git push origin <span class="example">feature/starter-code</span><span class ="description"> push changes to github branch</span></li>
-        <li class="italic">Go to git hub and follow instructions</li>
+        <li>git pull origin main <i class ="description"> sync local branch with repo version</i></li>
+        <li>git push origin <span class="example">feature/starter-code</span>
+          <i class ="description"> push changes to github branch</i></li>
+        <li><i>Go to git hub and follow instructions</i></li>
     </ol>
 
     <h3>What do those elements mean?</h3>
-     <p>git <span class="description">Precedes all git statements</span></p>
-     <p>checkout <span class="description">Moves working branch to new branch</span></p>
-     <p>-b <span class="description">Create new branch</span></p>
-     <p><span class="example">Feature/starter-code </span><span class="description">Name of new branch. Freature prefix shows change is adding new feature</span></p>
-     <p>add <span class="description"> add modifications in CWB to staging area</span></p>
-     <p>-A <span class="description">add all changes</span></p>
-     <p>-m <span class="description">associate message</span></p>
-     <p>pull <span class="description">reveive remote branch's modifications into local environment</span></p>
-     <p>origin <span class="description">source of info to pull</span></p>
-     <p>main <span class="description">the name of a branch in the repo</span></p>
+     <p>git <i class="description">Precedes all git statements</i></p>
+     <p>checkout <i class="description">Moves working branch to new branch</i></p>
+     <p>-b <i class="description">Create new branch</i></p>
+     <p><span class="example">Feature/starter-code </span><i class="description">Name of new branch. Freature prefix shows change is adding new feature</i></p>
+     <p>add <i class="description"> add modifications in CWB to staging area</i></p>
+     <p>-A <i class="description">add all changes</i></p>
+     <p>-m <i class="description">associate message</i></p>
+     <p>pull <i class="description">reveive remote branch's modifications into local environment</i></p>
+     <p>origin <i class="description">source of info to pull</i></p>
+     <p>main <i class="description">the name of a branch in the repo</i></p>
     <br>
 
      <h3>Types of git branches:</h3>
      <h4>There are 2 main types: Regular and Temporary</h4>
-    <p><span style="font-weight: bold;">Regular:</span> dev, master, QA </p>
-    <p>dev <span class="description">main development branch. 
+    <p><b>Regular:</b> dev, master, QA </p>
+    <p>dev <i class="description">main development branch. 
         content undergoes reviews and testing before being merged with master
-    </span></p>
-    <p>master <span class="description">branch available in Git repo.
+    </i></p>
+    <p>master <i class="description">branch available in Git repo.
          should always be stable.
-    </span></p>
-    <p>QA <span class="description"> contains code for QA and automation testing.
+    </i></p>
+    <p>QA <i class="description"> contains code for QA and automation testing.
         ensures code base is stable before going to production envirionment. 
-    </span></p>
-    <p><span style="font-weight: bold;">Temporary: </span> bug fix, hot fix, feature, experimental, WIP</p>
+    </i></p>
+    <p><b>Temporary:</b> bug fix, hot fix, feature, experimental, WIP</p>
     <br>
 
      <h3>Branch naming conventions:</h3>

@@ -31,15 +31,10 @@
   
     .description {
       color: hsl(240, 80%, 60% );
-      font-style: italic;
     }
   
     .example {
       color: hsl(240, 0%, 50% );
-    }
-  
-    .italic {
-      font-style: italic;
     }
 
     .card {
