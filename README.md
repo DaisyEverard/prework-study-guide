@@ -2,7 +2,7 @@
 
 ## Description
 
-A place to store my notes for coding principles, and experiment with new concepts learned. I plan to continously add to and adapt this project to give me a way to access my notes in clear way whenever i need. 
+A place to store some notes for coding principles, and experiment with new concepts learned. I plan to continously add to and adapt this project to give me a consistent way to apply and experiment with new concepts learned. 
 
 ## Installation
 
